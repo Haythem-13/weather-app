@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/weather.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Your HTML content here -->
+        <form class="inputs">
+            <input class="pick" type="text" placeholder="Choose another city" required>
+            <button class="btn-location" type="submit" value="submit">Submit</button>
+
+            <div class="Weather-report">
+                <!-- Your HTML content here -->
+                <section class="render">
+                    <div class="contain"></div>
+                    <h2 class="city"></h2>
+                    <p class="descrip"></p>
+                    <p class="temp"></p>
+                    <p class="wind"></p>
+                </section>
+                <div class="message"></div>
+            </div>
+        </form>
+    </div>
+    <script src="/weather.js"></script>
+</body>
+</html>
