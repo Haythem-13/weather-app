@@ -19,6 +19,7 @@
 
 
 ***Getting Started:***
+
 Clone the repository: git clone <repository-url https://github.com/Haythem-13/weather-app>
 
 Navigate to the project directory: cd WeatherApp
